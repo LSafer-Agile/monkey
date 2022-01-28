@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="web" name="Views">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/views/pug" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/src/views/pug" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/client/typescript" />
+          <root url="file://$MODULE_DIR$/src/client/sass" />
+          <root url="file://$MODULE_DIR$/src/client/static" />
+          <root url="file://$MODULE_DIR$/src/views/pug" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Typescript">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/client/typescript" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/src/client/typescript" relative="/public/javascript/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/client/typescript" />
+          <root url="file://$MODULE_DIR$/src/client/sass" />
+          <root url="file://$MODULE_DIR$/src/client/static" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Sass">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/client/sass" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/src/client/sass" relative="/public/css/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/client/typescript" />
+          <root url="file://$MODULE_DIR$/src/client/sass" />
+          <root url="file://$MODULE_DIR$/src/client/static" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+    <facet type="web" name="Static">
+      <configuration>
+        <descriptors>
+          <deploymentDescriptor name="web.xml" url="file://$MODULE_DIR$/src/client/static" />
+        </descriptors>
+        <webroots>
+          <root url="file://$MODULE_DIR$/src/client/static" relative="/" />
+        </webroots>
+        <sourceRoots>
+          <root url="file://$MODULE_DIR$/src/client/typescript" />
+          <root url="file://$MODULE_DIR$/src/client/sass" />
+          <root url="file://$MODULE_DIR$/src/client/static" />
+        </sourceRoots>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/client/sass" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/client/static" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/client/typescript" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/typescript" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/views/pug" type="java-resource" />
+    </content>
+    <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

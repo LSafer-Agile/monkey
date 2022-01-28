@@ -1,0 +1,19 @@
+{
+  "apps": [
+    {
+      "name": "monkey:web",
+      "cwd": "./web",
+      "script": "./build/javascript/main/http.js",
+      "autorestart": true,
+      "restart_delay": 5000,
+      "watch": [
+        "build",
+        "node_modules",
+        "package.json"
+      ],
+      "env": {
+        "BWD": "build"
+      }
+    }
+  ]
+}
